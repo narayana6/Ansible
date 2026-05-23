@@ -24,4 +24,4 @@ ansible [core 2.14.18]
   libyaml = True
 ```````````````
 
-![alt text](ansible.drawio.png)
+![alt text](images/ansible.drawio.png)
