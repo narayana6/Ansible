@@ -23,3 +23,5 @@ ansible [core 2.14.18]
   jinja version = 3.1.2
   libyaml = True
 ```````````````
+
+![alt text](ansible.drawio.png)
