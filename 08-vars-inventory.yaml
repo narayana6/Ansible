@@ -1,0 +1,12 @@
+- name: variables from inventory
+  hosts: localhost
+  tasks:
+  - name: print information
+    vars:
+      Course: "DevOps with AWS"
+      Trainer: "Sivakumar Reddy M"
+      Duration: "3.5 Months"
+      #WISHES: "Morning from variable file"
+      timings: "07:15AM IST"
+    ansible.builtin.debug:
+      msg: "Hi, We are learning {{Course}} from Trainer {{Trainer}}, Duration is {{Duration}}. Timings are: {{timings}}"
