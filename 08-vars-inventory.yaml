@@ -3,9 +3,9 @@
   tasks:
   - name: print information
     vars:
-      Course: "DevOps with AWS"
-      Trainer: "Sivakumar Reddy M"
-      Duration: "3.5 Months"
+      #Course: "DevOps with AWS"
+      #Trainer: "Narayana"
+      #Duration: "3.5 Months"
       #WISHES: "Morning from variable file"
       timings: "07:15AM IST"
     ansible.builtin.debug:
